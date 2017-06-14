@@ -4759,15 +4759,19 @@ redux-devtools-extension@^2.13.2:
   version "2.13.2"
   resolved "https://registry.yarnpkg.com/redux-devtools-extension/-/redux-devtools-extension-2.13.2.tgz#e0f9a8e8dfca7c17be92c7124958a3b94eb2911d"
 
+redux-first-router-navigation@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/redux-first-router-navigation/-/redux-first-router-navigation-1.0.1.tgz#b0aef63ba40eed5922faa7f08976cfee3edeebf7"
+
 redux-first-router-scroll-container-native@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/redux-first-router-scroll-container-native/-/redux-first-router-scroll-container-native-1.1.1.tgz#f024c7af2d9595556c47a67f2bd7422ed971147b"
   dependencies:
     prop-types "^15.5.8"
 
-redux-first-router@^1.4.1:
-  version "1.4.1"
-  resolved "https://registry.yarnpkg.com/redux-first-router/-/redux-first-router-1.4.1.tgz#a930f9c27d1065100bb6e4d15f7eb986e8e870bb"
+redux-first-router@^1.4.2:
+  version "1.4.2"
+  resolved "https://registry.yarnpkg.com/redux-first-router/-/redux-first-router-1.4.2.tgz#f625bc73b1974cef7bdd61b957ba7e0104d24605"
   dependencies:
     path-to-regexp "^1.7.0"
 
