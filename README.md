@@ -21,10 +21,10 @@ yarn start
 ```
 
 ## What To Do
-- examine the components (particularly Navigators: Stack.js, Tabs.js, Drawer.js, and secondly Screens: RecentChats, Notfications, Chats. In that order.)
-- examine the reducers
-- examine index.ios.js
-- examine src/index.js
-- examine src/configureStore.js
+- examine index.ios.js -- *URL is set via Linking to kick off the app (the way it's done is unique)*
+- examine src/index.js -- *history, store, and app are constructed*
+- examine src/configureStore.js -- *the redux-first-router stuff, keep an eye on this file*
+- examine the reducers -- *they are strikingly straightforward yet effective*
+- examine the components -- *particularly* ***Navigators:*** *Stack.js, Tabs.js, Drawer.js, and secondly* ***Screens:*** *RecentChats.js, Notfications.js, Chats.js.* ***In that order.***
 
 At one point I got it working with deep linking in Android, but haven't visited that in a while. So assume it's iOS only.

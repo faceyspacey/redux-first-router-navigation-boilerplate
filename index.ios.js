@@ -3,6 +3,8 @@
 import { push } from 'redux-first-router'
 import startApp from './src'
 
+// yup this works!! (I keep it off while working and just pre-set the URL)
+
 // Linking.getInitialURL().then(startApp)
 // Linking.addEventListener('url', ({ url }) => push(url))
 
@@ -10,6 +12,3 @@ import startApp from './src'
 startApp('spiritapp://tabs/recent')
 
 console.disableYellowBox = true
-
-
-
